@@ -1,7 +1,6 @@
 let clicks = 0;
 
-const click = () => {
+const handleClick = () => {
     clicks++;
-    const saida = document.querySelector("#saidaClickes");
-    saida.textContent = clicks;
+    document.querySelector("#saidaClickes").textContent = clicks;
 }
