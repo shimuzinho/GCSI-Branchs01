@@ -7,6 +7,15 @@
     text-align: center;
 }
 
+.containerThemeToggle {
+    display: flex;
+    justify-content: center;
+}
+
+.themeToggle {
+    margin: 20px;
+}
+
 .containerClicks {
     display: flex;
     flex-direction: column;
