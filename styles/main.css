@@ -2,3 +2,31 @@
     margin: 0;
     padding: 0;
 }
+
+.title {
+    text-align: center;
+}
+
+.containerThemeToggle {
+    display: flex;
+    justify-content: center;
+}
+
+.themeToggle {
+    margin: 20px;
+}
+
+.containerClicks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#saidaClicks {
+    margin: 20px;
+}
+
+#timer {
+    text-align: center;
+}
